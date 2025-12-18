@@ -33,9 +33,9 @@ public class CreateContactTest extends BaseClass {
 	 */
 	@Test(groups = "smoke")
 	public void createContactWithMandatoryDetails() throws Throwable {
-		
-		// Pushing Again
 
+		// Git Conflict resolved and pushed back
+		
 		// Random Number
 		int ranNum = jlib.getRandomNumber();
 		
@@ -96,3 +96,4 @@ public class CreateContactTest extends BaseClass {
 
 	}
 }
+
