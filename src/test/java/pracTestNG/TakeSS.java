@@ -19,14 +19,14 @@ public class TakeSS {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 
-		driver.get("https://amazon.com/");
+		driver.get("https://instagram.com/");
 		
 		Date date=new Date(); 
 		String newDate = date.toString().replace(" ","_").replace(":","_");
 
 		TakesScreenshot ts = (TakesScreenshot) driver;
 		File temp = ts.getScreenshotAs(OutputType.FILE);
-		File perm = new File("./Screenshots/HomePage"+newDate+ ".jpg");
+		File perm = new File("./Screenshots/HomePage"+newDate+".jpg");
 		FileHandler.copy(temp, perm);
 		driver.quit();
 	}
