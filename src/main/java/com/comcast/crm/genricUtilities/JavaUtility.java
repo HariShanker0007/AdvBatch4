@@ -6,7 +6,13 @@ import java.util.Date;
 import java.util.Random;
 
 public class JavaUtility {
-
+	
+	/**
+	 * @param 
+	 * To get a Random Number between 1-1000
+	 * @author harij
+	 * @return int
+	 */
 	public int getRandomNumber() {
 		Random ran = new Random();
 		int ranNum = ran.nextInt(1000);

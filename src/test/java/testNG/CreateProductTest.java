@@ -67,5 +67,7 @@ public class CreateProductTest extends BaseClass {
 		driver.findElement(By.xpath("//button[@aria-label='close']")).click();
 		check.assertAll();
 		
+		System.out.println("Product Successfully done");
+		
 	}
 }
