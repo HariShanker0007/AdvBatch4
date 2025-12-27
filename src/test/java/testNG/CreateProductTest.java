@@ -32,7 +32,7 @@ public class CreateProductTest extends BaseClass {
 	@Test(groups = "smoke")
 	public void createProductWithMandatoryDetails() throws Throwable {
 
-		// Creating Object
+		// Creating Object of Utilities
 		ExcelUtilities elib = new ExcelUtilities();
 		JavaUtility jlib = new JavaUtility();
 
@@ -71,3 +71,4 @@ public class CreateProductTest extends BaseClass {
 		
 	}
 }
+
