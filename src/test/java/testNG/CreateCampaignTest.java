@@ -17,7 +17,7 @@ public class CreateCampaignTest extends BaseClass {
 	@Test(groups = "smoke")
 	public void createCampaignWithMandatoryDetails() throws Throwable {
 
-		// Creating Object of Utilities
+		// Creating Object of Utilities and pushed successfully tp GIT
 		Homepage hp = new Homepage(driver);
 		hp.getCreateCampaignBtn().click();
 
